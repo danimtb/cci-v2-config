@@ -72,7 +72,7 @@ configurations:
       os: "Macos"
     content:
       - os: [ "Macos" ]
-        arch: [ "x86_64" ]
+        arch: [ "armv8" ]
         compiler:
           - "apple-clang":
               compiler.version: ["13" ]
