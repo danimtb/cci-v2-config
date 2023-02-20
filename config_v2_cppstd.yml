@@ -95,7 +95,8 @@ configurations:
                     compiler.runtime_type: [ "Release" ]
 
 cppstd:
-  apple-clang: ["gnu98", "98", "11", "gnu11", "14", "gnu14", "17", "gnu17", "20", "gnu20", "23", "gnu23"]
+  apple-clang:
+    "13": ["98", "gnu98", "11", "gnu11", "14", "gnu14", "17", "gnu17", "20", "gnu20", "23", "gnu23"]
 
 jenkins:
   url: "http://mb-jenkins-my-bloody-jenkins:8080"
