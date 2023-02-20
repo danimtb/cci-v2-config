@@ -95,10 +95,7 @@ configurations:
                     compiler.runtime_type: [ "Release" ]
 
 cppstd:
-  - compiler: "apple-clang"
-    version: 13
-    default: "gnu98"  # As per https://github.com/conan-io/conan/blob/ca97205567a72acd97226228cb185fc093cece94/conans/client/conf/detect.py#L378
-    stable: ["98", "gnu98", "11", "gnu11", "14", "gnu14", "17", "gnu17", "20", "gnu20", "23", "gnu23"]
+  apple-clang: ["gnu98", "98", "11", "gnu11", "14", "gnu14", "17", "gnu17", "20", "gnu20", "23", "gnu23"]
 
 jenkins:
   url: "http://mb-jenkins-my-bloody-jenkins:8080"
